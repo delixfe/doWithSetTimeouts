@@ -16,7 +16,8 @@ You can call the function `doWithTimeouts` with any number of functions to run w
 
 	doWithTimeouts(countAMillion, countAMillion, function() { console.log('done counting'); })
 
-*delay*	
+### delay ###
+
 The default delay is 150 ms which seems to be a save value at least at my machine. You can configure the default delay:
 
 	doWithTimeouts.delay = 1;
