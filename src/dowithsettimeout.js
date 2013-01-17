@@ -8,7 +8,7 @@
 
 var doWithTimeouts = function () {
 
-	var delay	= this.delay;
+	var delay = doWithTimeouts.delay;
 	doWithTimeoutsRecursive(arguments, 0);
 
 	function doWithTimeoutsRecursive(fns, index) {
