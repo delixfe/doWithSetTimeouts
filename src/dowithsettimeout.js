@@ -20,6 +20,6 @@ var doWithTimeouts = function () {
 			}	
 		}, delay);
 	}
-}
+};
 
 doWithTimeouts.delay = 150;
